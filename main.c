@@ -22,6 +22,10 @@
 
 #include <stdlib.h>
 #include <signal.h>
+#include <stdio.h>
+#include <string.h>
+#include <errno.h>
+#include <unistd.h>
 
 #include "modbus_service.h"
 #include "mqtt_service.h"
